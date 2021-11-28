@@ -1,6 +1,6 @@
 mkdir .shortcuts
 cd .shortcuts
-echo "am start -n com.asus.fmradio/.FMRadioUIv3" > "FM Radio"
+echo "am start -n com.asus.fmradio/.FMRadioUIv3" > "FM Radio"   #   This is the important bit
 chmod 700 "FM Radio
 mkdir icons
 mv /data/data/com.termux/files/home/storage/shared/Download/icon.png/ ~/.shortcuts/icons/"FM Radio.png"
